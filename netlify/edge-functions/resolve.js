@@ -5,8 +5,8 @@ const jstontype = 'application/dns-json'
 const r404 = new Response(null, {status: 404});
 
 // developers.cloudflare.com/workers/runtime-apis/fetch-event/#syntax-module-worker
-export default async (req: Request) => {
-  return handleRequest(req)
+export default async (request) => {
+  return handleRequest(request)
 };
 
 async function handleRequest(request) {

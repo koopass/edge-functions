@@ -42,5 +42,4 @@ export default async function handler(request) {
 
 export const config = {
   runtime: 'edge',
-  dynamic: 'force-dynamic',
 };

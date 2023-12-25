@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/resolve-google*", "destination": "https://dns.google/dns-query*" }
+    { "source": "/resolve-google", "destination": "https://dns.google/dns-query" }
   ]
 }

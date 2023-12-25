@@ -1,5 +1,5 @@
-const doh = 'https://cloudflare-dns.com/dns-query'
-const dohjson = 'https://cloudflare-dns.com/dns-query'
+const doh = 'https://dns.google/dns-query'
+const dohjson = 'https://dns.google/dns-query'
 const contype = 'application/dns-message'
 const jstontype = 'application/dns-json'
 const r404 = new Response(null, {status: 404});

@@ -17,7 +17,7 @@ export default async function handler(request) {
                 'Accept': contype,
             }
         });
-    } else if (method === 'POST' && headers.get('content-type') === contype) {
+    } else if (method === 'POST') {
         // streaming out the request body is optimal than awaiting on it
         const rostream = request.body;
         res = fetch(doh, {

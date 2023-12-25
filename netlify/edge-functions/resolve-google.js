@@ -45,4 +45,4 @@ async function handleRequest(request) {
     return res;
 }
 
-export const config = { path: "/resolve-google" };
+export const config = { path: "/resolve-google-v1" };

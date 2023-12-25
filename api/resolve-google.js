@@ -4,7 +4,11 @@ const contype = 'application/dns-message'
 const jstontype = 'application/dns-json'
 const r404 = new Response(null, {status: 404});
 
-export default async function handler(request) {
+export default async (request) => {
+  return handleRequest(request)
+};
+
+async function handleRequest(request) {
     // when res is a Promise<Response>, it reduces billed wall-time
     // blog.cloudflare.com/workers-optimization-reduces-your-bill
     let res = r404;

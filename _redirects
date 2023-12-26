@@ -1,4 +1,4 @@
 /resolve-google https://dns.google/dns-query 200
 /resolve-cloudflare https://dns.cloudflare.com/dns-query 200
 /resolve-quad9 https://dns10.quad9.net/dns-query 200
-/resolve-opendns https://doh.sandbox.opendns.com/dns-query 200
+/resolve-opendns https://doh.opendns.com/dns-query 200

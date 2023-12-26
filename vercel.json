@@ -3,6 +3,6 @@
     { "source": "/resolve-google", "destination": "https://dns.google/dns-query" },
     { "source": "/resolve-cloudflare", "destination": "https://dns.cloudflare.com/dns-query" },
     { "source": "/resolve-quad9", "destination": "https://dns10.quad9.net/dns-query" },
-    { "source": "/resolve-opendns", "destination": "https://doh.sandbox.opendns.com/dns-query" }
+    { "source": "/resolve-opendns", "destination": "https://doh.opendns.com/dns-query" }
   ]
 }
